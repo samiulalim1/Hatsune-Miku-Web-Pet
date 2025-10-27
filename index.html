@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hatsune Miku Web Pet Script</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Add a cute Hatsune Miku companion that interacts with your webpage!">
+	<meta name="keywords" content="Miku, Anime, Web Pet, Shimeji, JavaScript Widget, Otaku">
+	<meta name="author" content="Samiul Alim">
+	<meta property="og:title" content="Hatsune Miku Web Pet Script">
+	<meta property="og:image" content="image/miku.png">
+	<meta name="theme-color" content="#39f2ff">
+	<link rel="icon" type="image/png" href="image/miku.png">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.35.0/tabler-icons.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.11.1/styles/base16/dracula.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+	<script>hljs.highlightAll();</script>
+	<style>body{margin:0;font-family:"Trebuchet MS",sans-serif;background:radial-gradient(circle at center,rgba(15,40,64,1) 0,rgba(10,18,30,1) 100%);color:#e8faff}header{text-align:center;padding:70px 20px;background:rgba(25,45,71,.6);backdrop-filter:blur(6px);border-bottom:2px solid #4beaff}h1{font-size:2.7rem;text-shadow:0 0 10px #43f2ff;margin:0}.sprite-preview{width:130px;height:130px;margin:25px auto 0;background:url(image/miku.png) center/contain no-repeat;animation:3s ease-in-out infinite floaty}@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}.container{max-width:900px;margin:auto;padding:30px 20px}section{background:rgba(20,34,54,.7);padding:20px;margin-bottom:25px;border-radius:12px;border-left:4px solid #3dd4ff;box-shadow:0 0 12px rgba(0,255,255,.1)}pre{border-radius:10px;border:1px solid #3dd4ff;padding:0px;overflow-x:auto;font-size:.92rem}.social{margin-top:20px;display:flex;justify-content:center;gap:18px}.icon-btn{font-size:34px;color:#39f2ff;transition:.25s}.icon-btn:hover{color:#9bfaff;transform:translateY(-3px) scale(1.1);text-shadow:0 0 15px #84f8ff}footer{margin-top:40px;text-align:center;padding:45px 0;border-top:1px solid #4beaff;color:#79f8ff;font-size:.9rem}</style>
+</head>
+<body>
+	<header>
+		<h1>🌟 Hatsune Miku Web Pet Script</h1>
+		<div class="sprite-preview"></div>
+		<p>Turn your site into an otaku paradise with a tiny Miku friend.</p>
+	</header>
+	<div class="container">
+		<section>
+			<h2>✨ What is this?</h2>
+			<p>A JavaScript companion that walks, jumps, thinks, reads, sits and follows visitors around webpages. Fully mobile supported!</p>
+		</section>
+
+		<section>
+			<h2>📦 Installation</h2>
+			<p>Step 1. Include the script:</p>
+			<pre><code class="language-html">&lt;script src="miku.js"&gt;&lt;/script&gt;</code></pre>
+			<p>Step 2. Spawn your Miku:</p>
+			<pre><code class="language-js">const miku = new Miku();</code></pre>
+		</section>
+		<section>
+			<h2>🔧 Remove Miku</h2>
+			<pre><code class="language-js">miku.remove();</code></pre>
+		</section>
+
+		<section>
+			<h2>🧉 Connect & Share</h2>
+			<div class="social">
+				<a class="icon-btn" href="https://github.com/samiulalim1/Hatsune-Miku-Web-Pet" title="GitHub"><i class="ti ti-brand-github"></i></a>
+				<a class="icon-btn" href="https://t.me/mr999plus" title="Telegram"><i class="ti ti-brand-telegram"></i></a>
+			</div>
+		</section>
+		<section>
+			<h2>🎨 Credits</h2>
+			<p>Sprite Original: Shimeji Sprite Directory</p>
+			<p>Miku © Crypton Future Media, INC.</p>
+		</section>
+	</div>
+	<footer>⭐ If Miku made you smile, please star the repo!</footer>
+</body>
+</html>
