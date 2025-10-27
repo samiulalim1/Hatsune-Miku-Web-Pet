@@ -936,7 +936,7 @@
       }();
       this.O = function () {
         let t = document.createElement("div");
-        t.style = "position: absolute; background: url(\"https://samiulalim1.github.io/Hatsune-Miku-Web-Pet/image/spritesheet.png\") 0px -128px; z-index: 2; width: 128px; height: 128px; left: -64px; top: -128px; transform: translate(" + innerWidth / 3 + "px, 0px) scaleX(1); pointer-events: auto; cursor: context-menu; touch-action: none; -webkit-user-select: none; user-select: none;";
+        t.style = "position: absolute; background: url(\"https://cdn.jsdelivr.net/gh/samiulalim1/Hatsune-Miku-Web-Pet@v1.0.0/spritesheet.png\") 0px -128px; z-index: 2; width: 128px; height: 128px; left: -64px; top: -128px; transform: translate(" + innerWidth / 3 + "px, 0px) scaleX(1); pointer-events: auto; cursor: context-menu; touch-action: none; -webkit-user-select: none; user-select: none;";
         document.getElementById(e + "WorkArea").appendChild(t);
         return t;
       }();
