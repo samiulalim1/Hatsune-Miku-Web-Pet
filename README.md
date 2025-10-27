@@ -19,7 +19,7 @@ Bring a tiny Hatsune Miku companion to your website! She walks, jumps, sits, rea
 Step 1. Include the script:
 
 ```html
-<script src="https://samiulalim1.github.io/Hatsune-Miku-Web-Pet/script/miku.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/samiulalim1/Hatsune-Miku-Web-Pet@v1.0.0/miku.min.js"></script>
 ```
 
 Step 2. Spawn your Miku:
