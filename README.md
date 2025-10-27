@@ -3,7 +3,7 @@
 ![Miku Preview](./image/miku.png)
 
 Bring a tiny Hatsune Miku companion to your website! She walks, jumps, sits, reads, and follows your visitors around the page. Fully mobile-friendly and playful.
-- Unline Demo: [View Page](https://samiulalim1.github.io/Hatsune-Miku-Web-Pet/)
+- Online Demo: [View Page](https://samiulalim1.github.io/Hatsune-Miku-Web-Pet/)
 
 ## ✨ Features
 
